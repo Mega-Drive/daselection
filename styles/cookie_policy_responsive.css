@@ -63,7 +63,14 @@
 
 @media only screen and (max-width: 1280px)
 {
-	.main-nav
+    .footer_top_content
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1279px)
+{
+    .main-nav
     {
         display: none;
     }
@@ -83,10 +90,6 @@
     {
         display: block;
         visibility: visible;
-    }
-    .footer_top_content
-    {
-        display: none;
     }
 }
 
